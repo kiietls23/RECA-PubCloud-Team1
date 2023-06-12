@@ -29,10 +29,3 @@ spec:
       containers:
       - name: tomcat
         image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/tomcatimage:latest
-        volumeMounts:
-        - name: persistent-storage
-          mountPath: /static
-      volumes:
-      - name: persistent-storage
-        persistentVolumeClaim:
-          claimName: efs-claim
