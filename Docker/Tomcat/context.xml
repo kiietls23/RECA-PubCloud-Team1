@@ -11,5 +11,5 @@
             username="admin"
             password="password"
             testOnBorrow="true"
-            url="jdbc:mysql://eks-dbtest.cr11ygywub5g.ap-northeast-2.rds.amazonaws.com:3306/test"/>
+            url="jdbc:mysql://reca-rds-master.cr11ygywub5g.ap-northeast-2.rds.amazonaws.com:3306/BBS"/>
 </Context>
