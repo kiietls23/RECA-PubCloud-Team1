@@ -10,7 +10,7 @@ spec:
       port: 8080
       targetPort: 8080
   type: NodePort
-  clusterIP: 10.101.0.100
+  clusterIP: 10.1.0.100
 ---
 apiVersion: apps/v1
 kind: Deployment
