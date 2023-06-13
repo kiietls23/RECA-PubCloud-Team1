@@ -9,7 +9,7 @@ spec:
     - protocol: TCP
       port: 8080
       targetPort: 8080
-  type: LoadBalancer
+  type: NodePort
   clusterIP: 10.101.0.100
 ---
 apiVersion: apps/v1
