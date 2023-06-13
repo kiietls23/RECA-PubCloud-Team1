@@ -31,7 +31,7 @@ spec:
         image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/nginximage:latest
         volumeMounts:
         - name: persistent-storage
-          mountPath: /mnt/efs
+          mountPath: /static
       volumes:
       - name: persistent-storage
         persistentVolumeClaim:
