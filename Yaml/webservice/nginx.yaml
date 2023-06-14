@@ -81,4 +81,3 @@ spec:
             persistentVolumeClaim:
               claimName: efs-claim
           restartPolicy: OnFailure
-          successfulJobsHistoryLimit: 3 
