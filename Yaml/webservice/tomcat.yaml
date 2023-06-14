@@ -33,7 +33,7 @@ spec:
           limits:
             cpu: 200m
           requests:
-            cpu: 150m
+            cpu: 100m
 ---
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
