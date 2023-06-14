@@ -54,3 +54,31 @@ spec:
     kind: Deployment
     name: nginx
   targetCPUUtilizationPercentage: 50
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nginx-cronjob
+spec:
+  schedule: "0 0 */8 * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: nginx
+            image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/nginximage:latest
+            resources:
+              limits:
+                cpu: 10m
+              requests:
+                cpu: 5m
+            volumeMounts:
+            - name: persistent-storage
+              mountPath: /static
+          volumes:
+          - name: persistent-storage
+            persistentVolumeClaim:
+              claimName: efs-claim
+          restartPolicy: OnFailure
+          successfulJobsHistoryLimit: 3 

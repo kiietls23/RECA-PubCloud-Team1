@@ -47,3 +47,24 @@ spec:
     kind: Deployment
     name: tomcat
   targetCPUUtilizationPercentage: 50
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: tomcat-cronjob
+spec:
+  schedule: "0 0 */8 * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: tomcat
+            image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/tomcatimage:latest
+            resources:
+              limits:
+                cpu: 100m
+              requests:
+                cpu: 50m
+          restartPolicy: OnFailure
+          successfulJobsHistoryLimit: 3\
