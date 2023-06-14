@@ -45,7 +45,7 @@ spec:
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpe-web
+  name: hpa-nginx
 spec:
   maxReplicas: 10
   minReplicas: 1
