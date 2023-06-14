@@ -29,6 +29,11 @@ spec:
       containers:
       - name: nginx
         image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/nginximage:latest
+        resources:
+          limits:
+            cpu: 50m
+          requests:
+            cpu: 20m 
         volumeMounts:
         - name: persistent-storage
           mountPath: /static
@@ -36,3 +41,7 @@ spec:
       - name: persistent-storage
         persistentVolumeClaim:
           claimName: efs-claim
+      autoscaler:
+        minReplicas: 3
+        maxReplicas: 6
+        targetCPUUtilizationPercentage: 50
