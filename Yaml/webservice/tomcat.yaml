@@ -15,7 +15,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tomcat-deployment
+  name: tomcat
 spec:
   replicas: 3
   selector:
@@ -29,3 +29,22 @@ spec:
       containers:
       - name: tomcat
         image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/tomcatimage:latest
+      resources:
+        limits:
+          cpu: 10m
+        requests:
+          cpu: 5m
+---
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: hpa-tomcat
+spec:
+  maxReplicas: 10
+  minReplicas: 1
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: tomcat
+  targetCPUUtilizationPercentage: 50
