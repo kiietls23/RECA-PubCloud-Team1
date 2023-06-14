@@ -31,9 +31,9 @@ spec:
         image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/nginximage:latest
         resources:
           limits:
-            cpu: 10m
+            cpu: 100m
           requests:
-            cpu: 5m 
+            cpu: 50m 
         volumeMounts:
         - name: persistent-storage
           mountPath: /static
@@ -70,9 +70,9 @@ spec:
             image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/nginximage:latest
             resources:
               limits:
-                cpu: 10m
+                cpu: 100m
               requests:
-                cpu: 5m
+                cpu: 50m
             volumeMounts:
             - name: persistent-storage
               mountPath: /static
