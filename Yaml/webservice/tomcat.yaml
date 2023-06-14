@@ -31,9 +31,9 @@ spec:
         image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/tomcatimage:latest
         resources:
           limits:
-            cpu: 10m
+            cpu: 100m
           requests:
-            cpu: 5m
+            cpu: 50m
 ---
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
