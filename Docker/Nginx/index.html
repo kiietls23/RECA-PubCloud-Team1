@@ -1,12 +1,109 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-<head>
-  <meta charset="UTF-8">
-  <title>html</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+<style>
+    .hero-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 300px;
+        background-color: 000000;
+    }
+    .hero-bg {
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        color: black;
+        width: 1000px;
+      }
+      
+      .hero-area-wrapper {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+      }
+      
+      .hero-area-inner {
+        vertical-align: middle;
+        height: 100%;
+      }
+      
+      .hero-area-inner h1 {
+        color: darkred;
+        text-transform: uppercase;
+        position: relative;
+        font-size: 60px;
+        text-align: center;
+      }
+      
+      .hero-area-inner h1:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        content: "";
+        background: black;
+      }
+      
+      .hero-area-inner h1:after {
+        position: absolute;
+        background: black;
+        content: "";
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+      }
+      
+      .btn.hero-btn {
+        display: inline-block;
+        border: 2px solid black;
+        line-height: 55px;
+        padding: 0px 65px;
+        border-radius: 0;
+        text-transform: uppercase;
+        color: darkgoldenrod;
+        font-weight: 700;
+      }
+      
+      .hero-btn:hover {
+        background: #2ecc71;
+        border-color: #2ecc71;
+      }
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: center;
+        margin-bottom: center;
+      }
+
+</style>
 <body>
-    <h1>test</h1>
-    <a href="main.jsp">test</a>
+    <div id="home" class="hero-area"  >
+		<div class="owl-carousel hero-area-slider" >
+			<div class="hero-bg bg-1" >
+				<div class="d-table hero-area-wrapper" >
+					<div class="d-table-cell hero-area-inner" >
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-lg-9" >
+									<h1>쇼핑몰에 오신것을 환영합니다</h1>
+									<a href="main.jsp" class="btn hero-btn">들어가기</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>    
+    </div>        
 </body>
 </html>

@@ -12,4 +12,6 @@
             password="password"
             testOnBorrow="true"
             url="jdbc:mysql://reca-rds-master.cr11ygywub5g.ap-northeast-2.rds.amazonaws.com:3306/BBS"/>
+	<Valve className="tomcat.request.session.redis.SessionHandlerValve" />
+    <Manager className="tomcat.request.session.redis.SessionManager" />
 </Context>
