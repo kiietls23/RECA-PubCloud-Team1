@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/nginximage:roll
+        image: 194453983284.dkr.ecr.ap-northeast-2.amazonaws.com/nginximage:5.0
         resources:
           limits:
             cpu: 100m
