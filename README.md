@@ -7,7 +7,7 @@
 5. [기술 스택](#✍-기술-스택)
 6. [요구 사항](#🛠️-Requirements)
 7. [시스템 설계](#📚-Architecture)
-8. [프로젝트 진행 관리:Notion](#📝-프로젝트-진행-관리:Notion)
+8. [프로젝트 진행 관리: Notion](#📝-프로젝트-진행-관리-notion)
 9. [최종 산출물 - 발표 PPT](#📝-발표-ppt)
 
 <br>
@@ -80,7 +80,7 @@ Language | Platform | Infra | Tool
 
 <br>
 
-# 📝 프로젝트 진행 관리:Notion
+# 📝 프로젝트 진행 관리: Notion
 ### 🔗 [Team Notion URL](https://calico-alto-510.notion.site/Team-Note-6832facf697b48858af2ea4c3de45759?pvs=4)
 
 
