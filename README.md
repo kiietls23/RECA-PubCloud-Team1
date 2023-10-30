@@ -6,7 +6,7 @@
 4. [개발 인원](#💻-개발-인원4명)
 5. [기술 스택](#✍-기술-스택)
 6. [요구 사항](#🛠️-Requirements)
-7. [화면 설계](#📚-화면-설계)
+7. [시스템 설계](#📚-Architecture)
 8. [프로젝트 진행 관리: ](#📝-프로젝트-진행-관리)
 9. [최종 산출물 - 발표 PPT](#📝-발표-ppt)
 
@@ -17,14 +17,14 @@
 
 <br>
 
-## 🔖 최종 결과
-여기에 영상 넣기
+## 🔖 성과 및 이점
+<img src="https://user-images.githubusercontent.com/48422575/278952944-90bd4fd2-037c-4cd9-9974-73f150e4eb9b.png">
 
 <br>
 
 ## 📆 개발 기간
-- 2023.05.31 ~ 2023.06.17
-<img width="100%" src="https://user-images.githubusercontent.com/48422575/278949562-1ee659aa-3862-43db-b6fc-a9c0c4d86739.PNG"/>
+- 2023.06.01 ~ 2023.06.15
+<img width="100%" src="https://user-images.githubusercontent.com/48422575/278952670-c4567fdd-ebf2-4e8f-8413-6b52dd132549.png"/>
 
 <br>
 
@@ -75,9 +75,8 @@ Language | Platform | Infra | Tool
 
 <br>
 
-## 🖥 화면 설계
-<img width="80%" src=""/>
-<img width="80%" src=""/>
+## 🖥 Architecture
+<img width="100%" src="https://user-images.githubusercontent.com/48422575/278952496-2fb1d97b-4f69-4420-b352-d7e956352682.png"/>
 
 
 
