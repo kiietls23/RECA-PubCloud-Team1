@@ -23,8 +23,8 @@
 <br>
 
 ## 📆 개발 기간
-- 2023.10.04 ~ 2023.12.13
-<img width="80%" src="https://user-images.githubusercontent.com/48422575/278928971-ee691e4d-d646-4efe-9eb7-7d34bb11e65d.PNG"/>
+- 2023.05.31 ~ 2023.06.17
+<img width="80%" src="https://user-images.githubusercontent.com/48422575/278949562-1ee659aa-3862-43db-b6fc-a9c0c4d86739.PNG"/>
 
 <br>
 
@@ -50,34 +50,34 @@ Language | Platform | RTE | Tool
 
  * ***타겟 설정***
 
-  <img width="80%" src="https://user-images.githubusercontent.com/48422575/278925021-37c852fe-2c9a-4bbf-a6bc-46ddaea5aeae.png"/>
+  <img width="80%" src=""/>
 
 
  * ***유저 시나리오***
 
-  <img width="80%" src="https://user-images.githubusercontent.com/48422575/278925988-56970065-31e3-4018-8801-4e9189bb2887.PNG"/>
+  <img width="80%" src=""/>
 
 
   * ***요구사항 도출***
   
-    * 리버싱에 필요한 실행 파일의 정보 (주로 주소) 를 파싱
+    * 리
   
-    * 초보 학습자와 전문 분석가에게 모두 직관적이고 유용한 학습 툴
+    * 초
     
-    * 스트링 형태의 보안 데이터 시각화를 최종 목표로 함
+    * 스
     
 
   * ***기능명세서***
 
-  <img width="80%" src="https://user-images.githubusercontent.com/48422575/278928472-2e2dc2ca-60fa-4bd1-9bc1-997df166f3a3.png"/>
+  <img width="80%" src=""/>
 
 
 
 <br>
 
 ## 🖥 화면 설계
-<img width="80%" src="https://github.com/kiietls23/KU2022_PEparser/assets/48422575/15b92a2e-8061-4690-bab0-382bc9519727"/>
-<img width="80%" src="https://github.com/kiietls23/KU2022_PEparser/assets/48422575/9ca1205c-d376-4afd-b8f4-3b35e4e5c710"/>
+<img width="80%" src=""/>
+<img width="80%" src=""/>
 
 
 
