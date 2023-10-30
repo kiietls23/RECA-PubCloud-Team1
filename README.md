@@ -1,13 +1,13 @@
 # 🔗 목차
 
 1. [RECA-PubCloud-Team1](#-RECA-PubCloud-Team1)
-2. [최종 결과](#🔖-최종-결과)
+2. [성과 및 이점](#🔖-성과-및-이점)
 3. [개발 기간](#📆-개발-기간)
 4. [개발 인원](#💻-개발-인원4명)
 5. [기술 스택](#✍-기술-스택)
 6. [요구 사항](#🛠️-Requirements)
 7. [시스템 설계](#📚-Architecture)
-8. [프로젝트 진행 관리: ](#📝-프로젝트-진행-관리)
+8. [프로젝트 진행 관리: Notion](#📝-프로젝트-진행-관리:Notion)
 9. [최종 산출물 - 발표 PPT](#📝-발표-ppt)
 
 <br>
@@ -60,16 +60,14 @@ Language | Platform | Infra | Tool
 
   * ***요구사항 도출***
   
-    * 리
+    * 한국 고객 위주로 운영되는 온라인 쇼핑몰 서비스 구축
   
-    * 초
+    * 도메인을 통한 상품 정보 게시판 접속
     
-    * 스
+    * 상품 정보의 추가 및 가격 정보 변동 사항을 실시간으로 반영
+   
+    * Front-Back-DB 3-Tier 구성의 웹 어플리케이션 구축
     
-
-  * ***기능명세서***
-
-  <img width="80%" src=""/>
 
 
 
@@ -82,8 +80,8 @@ Language | Platform | Infra | Tool
 
 <br>
 
-# 📝 프로젝트 진행 관리: 
-### 🔗 URL
+# 📝 프로젝트 진행 관리: Notion
+### 🔗 [Team Notion URL](https://calico-alto-510.notion.site/Team-Note-6832facf697b48858af2ea4c3de45759?pvs=4)
 
 
 <br>
