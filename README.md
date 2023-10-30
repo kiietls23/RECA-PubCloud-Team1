@@ -88,7 +88,7 @@ Language | Platform | Infra | Tool
 
 # 📝 최종 산출물 - 발표 PPT
 ### 🔗 [발표자료](https://github.com/kiietls23/KU2022_PEparser/blob/main/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EC%B5%9C%EC%A2%85.pdf)
-
+<img width="80%" src="https://user-images.githubusercontent.com/48422575/278955725-6241408c-dcf2-491d-abc3-097c22189e12.png">
 
 
 
