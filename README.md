@@ -18,13 +18,13 @@
 <br>
 
 ## 🔖 성과 및 이점
-<img src="https://user-images.githubusercontent.com/48422575/278952944-90bd4fd2-037c-4cd9-9974-73f150e4eb9b.png">
+<img width="80%" src="https://user-images.githubusercontent.com/48422575/278952944-90bd4fd2-037c-4cd9-9974-73f150e4eb9b.png">
 
 <br>
 
 ## 📆 개발 기간
 - 2023.06.01 ~ 2023.06.15
-<img width="100%" src="https://user-images.githubusercontent.com/48422575/278952670-c4567fdd-ebf2-4e8f-8413-6b52dd132549.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/48422575/278952670-c4567fdd-ebf2-4e8f-8413-6b52dd132549.png"/>
 
 <br>
 
@@ -74,7 +74,7 @@ Language | Platform | Infra | Tool
 <br>
 
 ## 🖥 Architecture
-<img width="100%" src="https://user-images.githubusercontent.com/48422575/278952496-2fb1d97b-4f69-4420-b352-d7e956352682.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/48422575/278952496-2fb1d97b-4f69-4420-b352-d7e956352682.png"/>
 
 
 
